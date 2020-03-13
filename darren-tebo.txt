@@ -30,11 +30,25 @@ CodePen Link: https://codepen.io/dtebo83/pen/GRJxqzm?editors=1100
 28. How do I add a 1px border around my div that is dotted and black? A.) div { border: 1px dotted black; }
 29. How do I select everything on the page? A.) The Universal Selector or '*'
 30. How do I write a comment in CSS? A.) Using // for a line comment and /* */ for a block comment.
-31. How do I find out what file I am in, when I am using the command line? A.) 
+31. How do I find out what file I am in, when I am using the command line? A.) Using the pwd command
 32. Using the command line - how do I see a list of files/folders in my current folder? A.) ls or dir
 33. How do I remove a file via the command line? A.) rm Why do I have to be careful with this? A.) It will permanently delete the file. There is no way to get it back.
 34. Why should I use version control? A.) To ensure that I can restore my code to an earlier state if something goes wrong.
 35. How often should I commit to github? A.) As much as possible.
 36. What is the command we would use to push our repo up to github? A.) git push -u origin firstname-lastname
 37. Walk me through Lambda's git flow.
-    Step 1: 
+    Step 1: Create your own version (or fork) the repo.
+    Step 2: Add your TL as collaborator.
+    Step 3: Clone your repo (git clone <your repo address>).
+    Step 4: Create a branch (cd <repo directory> then git checkout -b 'firstname-lastname').
+    Step 5: Push your branch to github and make all future pushes to that branch (git push -u origin 'firstname-lastname').
+    Step 6: Add your TL as a reviewer on the pull request.
+
+
+Stretch Questions:
+
+1. What is the difference between an inline element and a block element? A.) An inline element displays on one line whereas a block element wraps to the next line.
+2. What happens when an element is positioned absolutely? A.) It is taken out of the flow of the document.
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? Set the CSS display property to inline-block.
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default A.) Block elements: div, p, section    Inline elements: span, a     Inline-Block element: textarea. 
+5. In your own words, explain the box model. A.) The Box model involves the boxes that contain each element in HTML. What is the fix for the box model? A.) The fix is the CSS box-sizing: 'border-box' property and value.
