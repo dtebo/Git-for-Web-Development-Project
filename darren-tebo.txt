@@ -1,1 +1,40 @@
 CodePen Link: https://codepen.io/dtebo83/pen/GRJxqzm?editors=1100
+
+1. What is Semantic HTML?  A.) Semantic HTML is HTML that is well defined and has meaning.
+2. What is HTML used for? A.) HTML is used to structure a web page or app.
+3. What is an attribute and where do we put it? A.) An attribute is basically a property for an HTML element. It is put inside the tag after the tag name and a space.
+4. What is the h1 tag used for? A.) It is the largest heading tag and it is used mostly to identify the most important text on a web page or app. How many times should I use it on a page? A.) It is recommended that it be used only once.
+5. Name two tags that have required attributes. A.) input and textarea.
+6. What do we put in the head of our HTML document? A.) Metadata about the site or page.
+7. What is an id? A.) It is an attribute that is used to uniquely identify an element.
+8. What elements can I add an id to? A.) Any HTML element.
+9. How many times can I use the same id on a page? A.) Once.
+10. What is a class? A.) A class is an attribute that is used to identify a group of elements that will share the same styles.
+11. What elements can I add a class to? A.) Any HTML element.
+12. How many times can I use the same class on a page? A.) Multiple times.
+13. How do I get my link to open in a new tab? A.) By using the target="_blank" attribute and value.
+14. What is the alt attribute used for? A.) To describe an image.
+15. How do I reference an id? A.) With the # symbol.
+16. What is the difference between a section and a div A.) A section element has more semantic meaning and is used to identify a section of a page.
+17. What is CSS used for? A.) CSS is used to provide style and formatting to an app or site.
+18. How to we select an element? Example - every h2 on the page A.) <element name, class, or id here>{}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one A.) A class can be used on multiple elements whereas an id can only be used on one element at a time. A good example of when to use an id is when you want to highlight a section of text using css. A good example of when to use a class is when you want to color all paragraphs on an app or site green.
+20. How do we select classes in CSS? A.) Classes are selected by using the '.'
+21. How do we select a p element with a single class of “human””? A.) p.human{}
+22. What is a parent child selector? A.) It is a selector that is used to select all of the child elements of the specified parent element. When would this be useful? A.) When you want to select all paragraphs inside a section.
+23. How do you select all links within a div with the class of sidebar? A.) div.sidebar a{}
+24. What is a pseudo selector? A.) A pseudo selector identifies a special state of an element.
+25. What do we use the change the spacing between lines? A.) The CSS line-height property.
+26. What do we use to change the spacing between letters? A.) The CSS letter-spacing property.
+27. What do we use to to change everything to CAPITALS? A.) text-transform: uppercase lowercase? A.) text-transform: lowercase Capitalize? A.) text-transform: capitalize
+28. How do I add a 1px border around my div that is dotted and black? A.) div { border: 1px dotted black; }
+29. How do I select everything on the page? A.) The Universal Selector or '*'
+30. How do I write a comment in CSS? A.) Using // for a line comment and /* */ for a block comment.
+31. How do I find out what file I am in, when I am using the command line? A.) 
+32. Using the command line - how do I see a list of files/folders in my current folder? A.) ls or dir
+33. How do I remove a file via the command line? A.) rm Why do I have to be careful with this? A.) It will permanently delete the file. There is no way to get it back.
+34. Why should I use version control? A.) To ensure that I can restore my code to an earlier state if something goes wrong.
+35. How often should I commit to github? A.) As much as possible.
+36. What is the command we would use to push our repo up to github? A.) git push -u origin firstname-lastname
+37. Walk me through Lambda's git flow.
+    Step 1: 
