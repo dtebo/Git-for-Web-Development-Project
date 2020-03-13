@@ -6,7 +6,7 @@ This project consists of two parts:
 ## Part One:
 You will need to follow the Lambda School Git Workflow to add a file to this project follow the steps below:
 
-- [ x ] Create your own version of this repo - Fork
+- [x] Create your own version of this repo - Fork
 - [x] Add your TL as a collaborator
 - [x] Clone this repo
 - [x] Create a branch `git checkout -b 'firstName-lastName'`
