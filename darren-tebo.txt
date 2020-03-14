@@ -1,5 +1,5 @@
 CodePen Link: https://codepen.io/dtebo83/pen/GRJxqzm?editors=1100
-sdfgsdfgfsdefasdrf
+
 1. What is Semantic HTML?  A.) Semantic HTML is HTML that is well defined and has meaning.
 2. What is HTML used for? A.) HTML is used to structure a web page or app.
 3. What is an attribute and where do we put it? A.) An attribute is basically a property for an HTML element. It is put inside the tag after the tag name and a space.
